@@ -20,7 +20,7 @@ def load_staging_tables(cur, conn):
 
 
 def insert_tables(cur, conn):
-        """ 
+    """ 
     Takes crusor of the Redshift and connection. 
     insert data from the staging table into the tables of the star schema
     Parameters: 
